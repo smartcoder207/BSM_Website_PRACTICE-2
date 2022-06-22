@@ -1,0 +1,43 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    }
+body{
+    background-image: url('https://www.generation.org/wp-content/uploads/2020/06/you-employed-home-square2-2x.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.grid{
+    display: flex;
+    background-color: aqua;
+    grid-template-columns: 3;
+    height: 150px;
+    width: span;
+    grid-gap:20px 10px;
+    align-items: center;
+   
+}
+
+.text{
+    display:flex;
+    align-content: center;
+    justify-content: space-evenly;
+    background-color: white;
+    text: center;
+}
+
+.box {
+    display: flex;
+    background-color: rgb(25, 230, 62);
+    color: black;
+    justify-content: flex-start;
+    flex-direction: row;
+    display: block;
+    height: 90px;
+    width: 90px;
+
+}
+   
+
